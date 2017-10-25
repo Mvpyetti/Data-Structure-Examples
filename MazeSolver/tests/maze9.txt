@@ -1,0 +1,18 @@
+Test Maze #9
+15 46
+l----t----------------t----t-----------t---t-r
+S    i                i    i           i   i E
+f--- i l------t------ i ---z l-------- i l-7 i
+i      i      i              i         i i i i
+f----- i -----7 l-------- ---7 --------7 i i i
+i      i      i i            i         i i i i
+i -----x----- i   l---t---t--^t---t--- i   i i
+i      i      f---7   i   i   i   i    f-  i i
+f----- i l----z   i i i i i i i i i l- i   i i
+i      i i   i  i i i i i i i i i i i  i l-7 i
+i l---tz i i f- i i i i i i i i i i i -7 i i i
+i i   i  i i i  i i i i i i i i i i i  i i i i
+i i i i -z i i -7 i i i i i i i i i f- i i i i
+i   i      i    i   i   i   i   i   i        i
+k---^------^----^---^---^---^---^---^--------z
+

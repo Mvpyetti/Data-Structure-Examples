@@ -1,0 +1,129 @@
+-----------------------------------------------------------------
+CS 302 - Assignment #7
+
+Hash Stats
+   Current Word Count: 184015
+   Current Hash Size: 480043
+   Hash Resize Operations: 5
+   Hash Collisions: 255558
+
+Not found: u.s
+Not found: dickenson
+Not found: aug
+Not found: blackstone's
+Not found: denotata
+Not found: hasn't
+Not found: th
+Not found: today's
+Not found: th
+Not found: decisionmaking
+Not found: verbis
+Not found: legis
+Not found: recedendum
+Not found: noscitur
+Not found: sociis
+Not found: t.r
+Not found: hominis
+Not found: scripti
+Not found: bulst
+Not found: nemo
+Not found: aliquam
+Not found: partem
+Not found: recte
+Not found: intelligere
+Not found: potest
+Not found: antequam
+Not found: totum
+Not found: perlegit
+Not found: meta-doctrine
+Not found: decisis
+Not found: simili
+Not found: lege
+Not found: littleton
+Not found: consuetudo
+Not found: communis
+Not found: assuetudo
+Not found: interpretatur
+Not found: legem
+Not found: scriptam
+Not found: generalis
+Not found: jenk
+Not found: curiï¿½est
+Not found: curi
+Not found: buls
+Not found: judiciis
+Not found: posterioribus
+Not found: adhibenda
+Not found: judicata
+Not found: veritate
+Not found: accipitur
+Not found: littleton
+Not found: boni
+Not found: judicis
+Not found: dirimere
+Not found: uitas
+Not found: quï¿½am
+Not found: quï¿½jus
+Not found: scriptum
+Not found: interpretatur
+Not found: emendat
+Not found: scriptura
+Not found: comprehensa
+Not found: ratione
+Not found: consistens
+Not found: littleton
+Not found: naturï¿½sunt
+Not found: immutabilia
+Not found: jacob
+Not found: impossibilium
+Not found: obligatio
+Not found: d
+Not found: cogit
+Not found: impossibilia
+Not found: neminem
+Not found: cogit
+Not found: vana
+Not found: seu
+Not found: inutilia
+Not found: peragenda
+Not found: legibus
+Not found: sumptis
+Not found: desinentibus
+Not found: lege
+Not found: naturï¿½utendum
+Not found: rol
+Not found: interpretion
+Not found: u.s
+Not found: v
+Not found: verba
+Not found: intelligi
+Not found: aliquid
+Not found: operantur
+Not found: debent
+Not found: anti-federalists
+Not found: potestas
+Not found: stricte
+Not found: interpretatur
+Not found: dubiis
+Not found: prï¿½umitur
+Not found: potentia
+Not found: subdelegated
+Not found: u.s
+Not found: subdelegate
+Not found: officials.delegata
+Not found: potestas
+Not found: potest
+Not found: delegari
+Not found: inst
+Not found: ubi
+Not found: ibi
+Not found: remedium
+Not found: terminer
+Not found: blackstone
+Not found: lawgiver's
+Not found: call-up
+
+Misspelled Words: 115
+
+-----------------------------------------------------------------
+Game Over, thank you for playing.

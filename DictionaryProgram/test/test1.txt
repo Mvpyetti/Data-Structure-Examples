@@ -1,0 +1,20 @@
+There are no misspelled words in this file.
+
+Computer science is no more about computers than astronomy is about telescopes.
+
+People think that computer science is the art of geniuses but
+the actual reality is the opposite, just many people doing things
+that build on each other, like a wall of mini stones.
+
+This is a "quote" or just a 'quoted' word.
+
+This file was created years ago (10/10/14) and the date should be skipped.
+
+This is a number 0012 which should be skipped.
+
+But, parenthesis (like this) should be OK.
+Or, even worse, ("this" "should") be fine.!
+
+It is "Great!" should work correctly.
+
+

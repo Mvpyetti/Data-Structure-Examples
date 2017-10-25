@@ -1,0 +1,18 @@
+Test Maze #5
+15 40
+l--------------------t-------t---------r
+S                    i       i         i
+f--- i ----r l------ f---r i i l------ i
+i    i     i i       i   i i i i       i
+i ---x---r i i ----r i i i i i i ------7
+i    i   i i i     i i i i i i i       i
+f--- i i i i f---- i i i i i i f------ i
+i    i i i i i   i i i i   i i i       i
+i ---7 i i i i i i i i i i i i i ------7
+i    i i i i i i i i i i i i i i       i
+f--- i i i i i i i i i i i i i f------ i
+i    i i i i i i i i i i i i i i       i
+i ---z i i i i i i i i i i i i i ------7
+i      i   i   i   i   i     i         E
+k------^---^---^---^---^-----^---------z
+

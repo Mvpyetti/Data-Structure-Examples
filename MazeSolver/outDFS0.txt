@@ -1,0 +1,35 @@
+************************************************************
+CS 302 - Assignment #8
+[1m[32mMaze Solver Algorithms.[0m
+
+
+height: 7
+width: 10
+counter
+counter
+counter
+counter
+counter
+counter
+counter
+Counter2
+[1mTitle: Test Maze #0[0m
+╔════╦═══╗
+S    ║   E
+╠═══ ║ ══╣
+║    ║   ║
+║ ═══╩══ ║
+║        ║
+╚════════╝
+
+Solved Maze - Recursive DFS Strategy.
+Solution Steps: 25
+╔════╦═══╗
+S••••║•••E
+╠═══•║•══╣
+║••••║•••║
+║•═══╩══•║
+║••••••••║
+╚════════╝
+
+Game over, thanks for playing.

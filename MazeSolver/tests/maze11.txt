@@ -1,0 +1,21 @@
+Large Test Maze
+19 79
+l-t---t-------------t-t---------t---------t---------------------t---t---------r
+S i   i             i i         i         i                     i   i         i
+i f-7 f-t-------r --r i l---t--   l--   i k-----r --r --t---- l-z i i l- -t-- i
+i i   i i       i   i   i   i     i   l-z       i   i   i     i   i   i   i   i
+i i i i   l---r i   i --7 i f-r   i --x-- l-r l-7 l-^-- i --r i i k-- i l-7 i i
+i i i i i i   i     i   i i f-7   i   i   i i i i i     i   i i i     i i i i i
+i i i i i f---^- -r i   i i k-z   f-- i       i   i l-- i i i i   l---^-^-7 i i
+i i i i f-7       i i   i i     i i   i   i   i   i i     i       i       i i i
+i f-z i i f-r ----7 f-- i k-----7 i i i l-^-t-7 --x-7 l---^---t-- i ----- i k-7
+i     i i i i     i i   i       i i i   i   i i   i i i       i   i           i
+i l---z i i i i --^-7   f-- i --7 i f-r i l-z k-r f-^-z i i i k-t-^-- l-------7
+i i       i   i     i   i   i   i i i i   i     i i     i i i   i     i       i
+i i l---- f---7 ----^-- i i k---^-z f-z --^---r i k-t-- f-z i l i ----^-r i i i
+i k-7     i   i         i i         i         i     i   i   i i         i i i i
+i   i ----7 i kt^-- l---^-z l ------x-------- i ----7 --^-t-z f---t---  i i i i
+f-- i     i i  i    i       i       i         i     i     i   i   i       i i i
+i   k---- k-z lz  --^-- --r k-- l---z --------^-- i k-r --^---z --^- l--- i k-i
+i             i           i     i                 i   i              i        i
+k-------------^-----------^-----^-----------------^---^--------------^-------Ez

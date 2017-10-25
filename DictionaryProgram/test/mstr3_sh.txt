@@ -1,0 +1,48 @@
+-----------------------------------------------------------------
+CS 302 - Assignment #7
+
+Hash Stats
+   Current Word Count: 184015
+   Current Hash Size: 480043
+   Hash Resize Operations: 5
+   Hash Collisions: 255558
+
+Not found: shel
+Not found: silverstein
+Not found: moon-bird
+Not found: chalk-white
+Not found: chalk-white
+Not found: world's
+Not found: william
+Not found: shakespeare
+Not found: world's
+Not found: nurse's
+Not found: cannon's
+Not found: edgar
+Not found: allan
+Not found: poe
+Not found: lenore
+Not found: lenore
+Not found: lenore
+Not found: lenore
+Not found: pallas
+Not found: night's
+Not found: bosom's
+Not found: cushion's
+Not found: o'er
+Not found: o'er
+Not found: lenore
+Not found: lenore
+Not found: gilead
+Not found: aidenn
+Not found: lenore
+Not found: lenore
+Not found: night's
+Not found: pallas
+Not found: demon's
+Not found: o'er
+
+Misspelled Words: 34
+
+-----------------------------------------------------------------
+Game Over, thank you for playing.

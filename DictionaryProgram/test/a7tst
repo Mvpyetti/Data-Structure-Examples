@@ -1,0 +1,154 @@
+#!/bin/bash
+# CS 302, assignment #8 test script.
+
+# ---------------------------------------------------------
+# Initial checks.
+#	Ensure executable file exists.
+#	Verify availability of testing support files.
+
+if [ -z $1 ]; then
+	echo "Error, must provide executable file name."
+	exit
+fi
+
+if [ ! -e $1 ] || [ ! -x $1 ]; then
+	echo "Error, unable to find $1 executable file."
+	exit
+fi
+
+if [ ! -e test1.txt ] || [ ! -e mstr1\_sh.txt ]; then
+	echo "Error, unable to find test input files."
+	exit
+fi
+#
+# ---------------------------------------------------------
+# Define script variables and function
+
+bolded=`tput bold`
+normal=`tput sgr0`
+
+pause() {
+	if [ "$1" = "skip" ]; then
+		echo
+	else
+		echo
+		echo
+		echo
+		echo
+		echo
+		echo -n "Press return to continue"
+		read
+		clear
+	fi
+}
+
+# ---------------------------------------------------------
+# Display initial page
+
+clear
+echo
+echo
+echo ${bolded}Assignment 8 - Testing Script${normal}
+echo
+echo
+echo
+echo
+echo "Note, this utility assumes the program is working or very"
+echo "      close to working.  Testing on an incomplete"
+echo "      program will not be useful."
+echo
+echo
+echo
+pause $2
+clear
+
+# ---------------------------------------------------------
+# Begin testing...
+#
+# -----
+#  Verify hash test works.
+#
+echo
+echo
+echo
+echo
+echo "Test - Verify hash test."
+#
+./hashTest > tmpHT.txt
+#
+if `diff tmpHT.txt mstrHT.txt >/dev/null` ; then
+	echo "Hash Test Output Correct"
+else
+	echo "Hash Test Fail"
+	diff tmpHT.txt mstrHT.txt
+fi
+#
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+pause $2
+clear
+#
+# -----
+#  Testing with no show option.
+#
+for cnt in {1..8..1}
+do
+#
+	echo -e
+	echo "Test $cnt, no show, small dictionary"
+#
+	./$1 -d smallDictionary1.txt -f test$cnt.txt -ns > tmp$cnt\_ns.txt
+#
+	if `diff tmp$cnt\_ns.txt mstr$cnt\_ns.txt >/dev/null` ; then
+		echo "Test $cnt Output Correct"
+	else
+		echo "Test $cnt Fail"
+		diff tmp$cnt\_ns.txt mstr$cnt\_ns.txt
+	fi
+#
+	if [ $cnt -eq 4 ]; then
+		pause $2
+		echo
+	fi
+
+#
+done
+#
+pause $2
+clear
+#
+# -----
+#  Testing with show option
+#
+for cnt in {1..8..1}
+do
+#
+	echo -e
+	echo "Test $cnt, show, large dictionary"
+#
+	./$1 -d dictionary.txt -f test$cnt.txt -sh > tmp$cnt\_sh.txt
+#
+	if `diff tmp$cnt\_sh.txt mstr$cnt\_sh.txt >/dev/null` ; then
+		echo "Test $cnt Output Correct"
+	else
+		echo "Test $cnt Fail"
+		diff tmp$cnt\_sh.txt mstr$cnt\_sh.txt
+	fi
+#
+	if [ $cnt -eq 4 ]; then
+		pause $2
+		echo
+	fi
+
+#
+done
+#
+echo
+echo
+#

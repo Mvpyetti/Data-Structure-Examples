@@ -1,0 +1,14 @@
+Test Maze #8
+11 15
+l-------------r
+S i           i
+i i i l------ i
+i i i i       i
+i i i i ------7
+i i i i       i
+i i i f------ i
+i i i i       i
+i i i i ------7
+i     i       E
+k-----^-------z
+

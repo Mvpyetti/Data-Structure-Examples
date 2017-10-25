@@ -1,0 +1,112 @@
+#!/bin/bash
+# CS 302, assignment #4 test script.
+
+# ---------------------------------------------------------
+# Initial checks.
+#	Ensure executable file exists.
+
+if [ -z $1 ]; then
+	echo "Error, must provide executable file name."
+	exit
+fi
+
+if [ ! -e $1 ] || [ ! -x $1 ]; then
+	echo "Error, unable to find $1 executable file."
+	exit
+fi
+
+# ---------------------------------------------------------
+# Define script variables and function
+
+bolded=`tput bold`
+normal=`tput sgr0`
+
+pause() {
+	if [ "$1" = "skip" ]; then
+		echo
+	else
+		echo
+		echo -n "Press return to continue"
+		read
+		clear
+	fi
+}
+
+# ---------------------------------------------------------
+# Display initial page
+
+clear
+echo
+echo
+echo ${bolded}Assignment 4 - Error Testing Utility${normal}
+echo
+echo
+echo
+echo
+echo "Note, this utility assumes the program is working or very"
+echo "      close to working.  Testing on an incomplete"
+echo "      program will not be useful."
+echo
+echo
+echo
+pause $2
+
+# ---------------------------------------------------------
+# Begin tests.
+
+# ---------------------------------
+#  PQ Testing
+
+echo
+echo "**********************************************************************"
+
+./pqTest > testOut.txt
+
+if `diff testOut.txt mastrTest.txt >/dev/null` ; then
+	echo "PQ Test Successful"
+else
+	diff testOut.txt mastrTest.txt
+fi
+
+echo
+echo
+echo
+echo
+pause $2
+
+# ---------------------------------
+#  Maze finding testing
+
+echo
+echo "**********************************************************************"
+echo
+echo "Testing..."
+echo
+
+for cnt in {0..11..1}
+do
+	echo
+	echo ${bolded}Test $cnt${normal}
+
+	./$1 -dfs -f maze$cnt.txt > outDFS$cnt.txt
+
+	if `diff outDFS$cnt.txt mastrDFS$cnt.txt >/dev/null` ; then
+		echo "DFS Test $cnt Successful"
+	else
+		echo "DFS Test $cnt Unsuccessful"
+		diff outDFS$cnt.txt mastrDFS$cnt.txt
+	fi
+
+	./$1 -astar -f maze$cnt.txt > outASTAR$cnt.txt
+
+	if `diff outASTAR$cnt.txt mastrASTAR$cnt.txt >/dev/null` ; then
+		echo "A* Test $cnt Successful"
+	else
+		echo "A* Test $cnt Unsuccessful"
+		diff outASTAR$cnt.txt mastrASTAR$cnt.txt
+	fi
+
+done
+
+echo
+

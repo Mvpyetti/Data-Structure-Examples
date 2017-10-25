@@ -1,0 +1,14 @@
+-----------------------------------------------------------------
+CS 302 - Assignment #7
+
+Hash Stats
+   Current Word Count: 184015
+   Current Hash Size: 480043
+   Hash Resize Operations: 5
+   Hash Collisions: 255558
+
+
+Misspelled Words: 0
+
+-----------------------------------------------------------------
+Game Over, thank you for playing.

@@ -1,0 +1,11 @@
+Test Maze #0
+7 10
+l----t---r
+S    i   E
+f--- i --7
+i    i   i
+i ---^-- i
+i        i
+k--------z
+
+

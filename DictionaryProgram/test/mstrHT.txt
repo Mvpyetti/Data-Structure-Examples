@@ -1,0 +1,61 @@
+----------------------------------------
+CS 302 - Assignment #8
+Hash Table Test Program.
+
+
+Hash Dump (for testing)
+----------------------------------------
+their
+bye
+by
+any
+balloon
+a
+ball
+the
+answer
+there
+
+
+Test Hash Zero
+
+Hash Stats
+   Current Word Count: 10
+   Current Hash Size: 1013
+   Hash Resize Operations: 0
+   Hash Collisions: 0
+
+----------------------------------------
+
+Hash Dump (for testing)
+----------------------------------------
+
+
+Test Hash Zero
+
+Hash Stats
+   Current Word Count: 0
+   Current Hash Size: 1013
+   Hash Resize Operations: 0
+   Hash Collisions: 0
+
+*****************************************************************
+Test Hash One
+
+Hash Stats
+   Current Word Count: 0
+   Current Hash Size: 1013
+   Hash Resize Operations: 0
+   Hash Collisions: 0
+
+*****************************************************************
+Test Hash Two
+
+Hash Stats
+   Current Word Count: 0
+   Current Hash Size: 960017
+   Hash Resize Operations: 6
+   Hash Collisions: 637944
+
+----------------------------------------
+Game Over, thank you for playing.
